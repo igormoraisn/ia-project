@@ -3,5 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: IA
 Bundle-SymbolicName: IA;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Require-Bundle: org.eclipse.ui
+Require-Bundle: org.eclipse.ui, org.eclipse.jdt, org.eclipse.jdt.ui, org.eclipse.ltk.core.refactoring, org.eclipse.ltk.ui.refactoring, org.eclipse.jdt.core.manipulation, org.eclipse.jdt.core, org.eclipse.core.resources
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.core.runtime;version="3.5.0",
+ org.eclipse.ltk.core.refactoring
